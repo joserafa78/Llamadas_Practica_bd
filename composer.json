@@ -1,0 +1,23 @@
+{
+    "name": "jose/practica",
+    "description": "practica con bd",
+    "type": "project",
+    "require-dev": {
+        "phpunit/phpunit": "9.6"
+    },
+    "license": "mit",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/",
+            "Basededatos\\": "basededatos/"
+        }
+    },
+    "authors": [
+        {
+            "name": "joserafa78",
+            "email": "jose.rafael.jimenez.6@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
